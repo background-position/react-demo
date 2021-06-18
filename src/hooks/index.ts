@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 export function useList() {
 	const [list, setList] = useState<Array<string>>(['test1', 'test2']);
