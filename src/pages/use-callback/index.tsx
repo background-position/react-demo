@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useEffect, FC } from 'react'
-import { Button } from '../../components/ui'
+import { Button } from '../../components'
 interface PageProps {}
 
 const CHild: FC<{ onCountChange: () => void }> = (props) => {

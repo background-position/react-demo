@@ -1,15 +1,13 @@
 import router from './router'
 import { RouterProvider } from 'react-router-dom'
+import { LinkMenu } from './components'
 import './globals.css'
-function App() {
+const App = () => {
+  const { routes } = router
+
   return (
     <>
-      <div className="App-header">
-        <h1 className="text-3xl font-bold underline text-cyan-300">
-          Hello world!
-        </h1>
-        <RouterProvider router={router} />
-      </div>
+      <RouterProvider router={router}></RouterProvider>
     </>
   )
 }
