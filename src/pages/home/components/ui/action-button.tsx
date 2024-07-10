@@ -1,6 +1,6 @@
 import { Button } from "../../../../components";
 
-interface Props {
+export interface Props {
   id: string;
   name: string;
   [key: string]: unknown;
