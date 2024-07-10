@@ -1,6 +1,5 @@
-import { useState } from 'react'
-import reactLogo from '../../assets/react.svg'
-import './index.css'
+import reactLogo from "../../assets/react.svg";
+import "./index.css";
 const App = () => {
   return (
     <>
@@ -11,7 +10,7 @@ const App = () => {
       </div>
       <h1>Vite + React</h1>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

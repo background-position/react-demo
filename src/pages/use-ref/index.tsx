@@ -1,7 +1,7 @@
-import React, { useRef, forwardRef } from "react";
-import { Button } from "../../components";}
-import type { FC } from "react";}
-interface IPageProps { }
+import React, { useRef } from "react";
+import { Button } from "../../components";
+import type { FC } from "react";
+interface IPageProps {}
 const App: FC<IPageProps> = () => {
   const inputRef = useRef<HTMLInputElement | null>(null);
 
