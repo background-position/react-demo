@@ -5,16 +5,21 @@
  */
 const fileToBase64 = (file: File): Promise<string> => {
   return new Promise((resolve, reject) => {
-    const reader = new FileReader()
+    const reader = new FileReader();
     reader.onload = (event: ProgressEvent<FileReader>) => {
-      const base64String = event.target?.result as string
-      resolve(base64String)
-    }
+      const base64String = event.target?.result as string;
+      resolve(base64String);
+    };
     reader.onerror = (event: ProgressEvent<FileReader>) => {
-      reject(event.target?.error)
-    }
-    reader.readAsDataURL(file)
-  })
-}
-
-export { fileToBase64 }
+      reject(event.target?.error);
+    };
+    reader.readAsDataURL(file);
+  });
+};
+const a = (arr: number[]) => {
+  const MAX_LENGTH = arr.length;
+  let left = 0;
+  let right = arr.length - 1;
+  let res = 0;
+};
+export { fileToBase64 };

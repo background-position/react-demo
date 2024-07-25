@@ -5,7 +5,7 @@ import UseMEmo from "../pages/use-memo";
 import Memo from "../pages/memo";
 import UseCallback from "../pages/use-callback";
 import ChildMethod from "../pages/child-method";
-import signature from "../pages/signature";
+import signature from "../pages/test";
 const myRouter = createBrowserRouter([
   {
     path: "/",
