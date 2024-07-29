@@ -16,10 +16,4 @@ const fileToBase64 = (file: File): Promise<string> => {
     reader.readAsDataURL(file);
   });
 };
-const a = (arr: number[]) => {
-  const MAX_LENGTH = arr.length;
-  let left = 0;
-  let right = arr.length - 1;
-  let res = 0;
-};
 export { fileToBase64 };
