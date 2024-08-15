@@ -1,32 +1,31 @@
-import { createBrowserRouter } from "react-router-dom";
-
-import HomePage from "../pages/home";
-import UseMEmo from "../pages/use-memo";
-import Memo from "../pages/memo";
-import UseCallback from "../pages/use-callback";
-import ChildMethod from "../pages/child-method";
-import A from "../pages/image";
+import { createBrowserRouter } from 'react-router-dom'
+import HomePage from '../pages/home'
+import UseMEmo from '../pages/use-memo'
+import Memo from '../pages/memo'
+import UseCallback from '../pages/use-callback'
+import ChildMethod from '../pages/child-method'
+import A from '../pages/model'
 const myRouter = createBrowserRouter([
   {
-    path: "/",
-    Component: A,
+    path: '/',
+    Component: A
   },
   {
-    path: "/memo",
+    path: '/memo',
     Component: Memo,
-    children: [],
+    children: []
   },
   {
-    path: "/use-memo",
-    Component: UseMEmo,
+    path: '/use-memo',
+    Component: UseMEmo
   },
   {
-    path: "/use-callback",
-    Component: UseCallback,
+    path: '/use-callback',
+    Component: UseCallback
   },
   {
-    path: "/child-method",
-    Component: ChildMethod,
-  },
-]);
-export default myRouter;
+    path: '/child-method',
+    Component: ChildMethod
+  }
+])
+export default myRouter
